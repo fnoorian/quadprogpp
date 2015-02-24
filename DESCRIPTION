@@ -1,0 +1,12 @@
+Package: quadprogpp
+Type: Package
+Title: Quadratic Programming++ for R
+Version: 1.0-0
+Date: 2015-02-23
+Author: Farzad Noorian <farzad.noorian@sydney.edu.au>
+Maintainer: Farzad Noorian <farzad.noorian@sydney.edu.au>
+Description: The package provides a fast implementation of Quadratic Programming
+    in R, based on QuadProg++ and Eigen libraries.
+License: GPL (>= 2.0)
+Imports: Rcpp (>= 0.11.3), RcppEigen (>= 0.3.2.3.0)
+LinkingTo: Rcpp, RcppEigen
