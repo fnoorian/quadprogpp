@@ -5,7 +5,7 @@ It wraps *eiquadprog* c++ library with *RcppEigen* R package.
 
 ### Speed-up 
 A speed-up of 4x to 5x compared to package *quadprog* (Fortran implementation) 
-was  observed.
+was observed.
 
 See benchmark in the package demos:
 > demo("benchmark", "quadprogpp")

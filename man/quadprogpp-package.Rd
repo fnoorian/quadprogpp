@@ -32,6 +32,8 @@ developed by Luca Di Gaspero, working with \emph{ublas} data structures.
 See \url{http://www.diegm.uniud.it/digaspero/index.php?page=software}.
 Copyright (2008) Angelo Furfaro and (2006) Luca Di Gaspero.
 
+Implementations are based on the dual method by Goldfarb and Idnani:
+
 D. Goldfarb and A. Idnani (1982).
 Dual and Primal-Dual Methods for Solving Strictly Convex Quadratic Programs.
 In J. P. Hennart (ed.), \emph{Numerical Analysis},
