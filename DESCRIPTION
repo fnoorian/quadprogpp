@@ -1,12 +1,16 @@
 Package: quadprogpp
 Type: Package
-Title: Quadratic Programming++ for R
-Version: 1.0-0
-Date: 2015-02-23
-Author: Farzad Noorian <farzad.noorian@sydney.edu.au>
-Maintainer: Farzad Noorian <farzad.noorian@sydney.edu.au>
-Description: The package provides a fast implementation of Quadratic Programming
-    in R, based on QuadProg++ and Eigen libraries.
-License: GPL (>= 2.0)
-Imports: Rcpp (>= 0.11.3), RcppEigen (>= 0.3.2.3.0)
+Title: Quadratic Programming Solver in C++, using QuadProg++ and Eigen Templated Linear Algebra Libraries
+Version: 1.0-1
+Date: 2015-02-24
+Authors@R: c(person("Farzad", "Noorian", role = c("aut", "cre"), email = "farzad.noorian@sydney.edu.au"),
+			 person("Benjamin", "Stephens", role = c("ctb", "cph")),
+			 person("Gael", "Guennebaud", role = c("ctb", "cph")),
+			 person("Angelo", "Furfaro", role = c("ctb", "cph")),
+			 person("Luca", "Di Gaspero", role = c("ctb", "cph")))
+URL: https://github.com/fnoorian/quadprogpp
+BugReports: https://github.com/fnoorian/quadprogpp/issues
+Description: A fast Quadratic Programming solver is implemented using c++ solver library eiquadprog. Originally based on uQuadProg and QuadProg++, eiquadprog utilises Eigen linear algebra c++ templates, and is optimised by explicit vectorisation for SSE2/3/4. The solver is 4x to 5x faster than the Fortran based quadprog (as of version 1.5-5), as shown in the benchmarks included in the demos.
+License: GPL (>= 2.0) | file LICENSE
+Depends: Rcpp (>= 0.11.3), RcppEigen (>= 0.3.2.3.0)
 LinkingTo: Rcpp, RcppEigen

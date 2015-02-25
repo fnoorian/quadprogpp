@@ -7,7 +7,7 @@
 
 #include <Eigen/Dense>
 
-#include "eiquadprog.hpp"
+#include "eiquadprog.h"
 
 using namespace Rcpp;
 using namespace Eigen;
