@@ -11,7 +11,7 @@ If you don't have *devtools* package, install it first by using `install.package
 > install_github("fnoorian/quadprogpp")
 
 ## Speed-up 
-A speed-up of 4x to 5x compared to package *quadprog* (Fortran implementation) 
+A speed-up of 3x to 5x compared to package *quadprog* (Fortran implementation) 
 was observed.
 
 See the benchmark in the package demos:
