@@ -10,7 +10,7 @@ Authors@R: c(person("Farzad", "Noorian", role = c("aut", "cre"), email = "farzad
 			 person("Luca", "Di Gaspero", role = c("ctb", "cph")))
 URL: https://github.com/fnoorian/quadprogpp
 BugReports: https://github.com/fnoorian/quadprogpp/issues
-Description: A fast Quadratic Programming solver is implemented using c++ solver library eiquadprog. Originally based on uQuadProg and QuadProg++, eiquadprog utilises Eigen linear algebra c++ templates, and is optimised by explicit vectorisation for SSE2/3/4. The solver is 4x to 5x faster than the Fortran based quadprog (as of version 1.5-5), as shown in the benchmarks included in the demos.
-License: GPL (>= 2.0) | file LICENSE
-Depends: Rcpp (>= 0.11.3), RcppEigen (>= 0.3.2.3.0)
-LinkingTo: Rcpp, RcppEigen
+Description: A fast Quadratic Programming solver is implemented using C++ solver library eiquadprog. Originally based on uQuadProg and QuadProg++, eiquadprog utilises Eigen linear algebra C++ templates, and is optimised by explicit vectorisation for SSE2/3/4. The solver is 4x to 5x faster than the Fortran based quadprog (as of version 1.5-5), as shown in the benchmarks included in the demos.
+License: GPL (>= 2.0)
+Depends: R (>= 3.0.2), Rcpp (>= 0.11.3)
+LinkingTo: Rcpp, RcppEigen (>= 0.3.2.3.0)
