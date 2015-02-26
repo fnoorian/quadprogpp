@@ -1,5 +1,4 @@
 useDynLib(quadprogpp)
-import(RcppEigen)
 importFrom(Rcpp, evalCpp)
 export(
     "QP.Solve")
