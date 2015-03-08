@@ -14,13 +14,16 @@ Quick Quadratic Programming using eiquadprog c++ library.
   ~~~~ C_E^T x + c_{e0} = 0 \\
   ~~~~ C_I^T x + c_{i0} \ge 0
 }{
-\verb{
 min 
+
   1/2 x^T G x + g0^T x
+  
 s.t.
+
   CE^T x + ce0 = 0
+  
   CI^T x + ci0 >= 0
-}}
+}
 }
 \usage{
 QP.Solve(G, g0, 
