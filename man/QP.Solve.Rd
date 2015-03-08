@@ -8,22 +8,12 @@ Quick Quadratic Programming using eiquadprog c++ library.
 \description{
 \code{QP.Solve} solves a quadratic programming in form of:
 
-\eqn{
-  \min 1/2 x^T G x + g_0^T x \\
-  s.t. \\
-  ~~~~ C_E^T x + c_{e0} = 0 \\
-  ~~~~ C_I^T x + c_{i0} \ge 0
-}{
-min 
-
-  1/2 x^T G x + g0^T x
-  
-s.t.
-
-  CE^T x + ce0 = 0
-  
-  CI^T x + ci0 >= 0
-}
+ \tabular{ll}{
+    min  \tab \eqn{1/2 x^\mathrm{T} G x + g_0^\mathrm{T} x}{1/2 x^T G x + g0^T x} \cr
+    s.t. \tab \cr
+         \tab \eqn{C_E^\mathrm{T} x + c_{e0} = 0}{CE^T x + ce0 = 0} \cr
+         \tab \eqn{C_I^\mathrm{T} x + c_{i0} \ge 0}{CI^T x + ci0 >= 0} \cr
+  }
 }
 \usage{
 QP.Solve(G, g0, 
