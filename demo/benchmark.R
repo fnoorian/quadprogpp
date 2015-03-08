@@ -39,7 +39,7 @@ for (i in N_list) {
   cat("Using QuadProg (Fortran):\n")
   t1 <- system.time({
     for (j in 1:repeats) {
-      sol <- solve.QP(D, d0, Amat, bvec)
+      sol <- quadprog::solve.QP(D, d0, Amat, bvec)
     }
   })
   speed_fortran <- c(speed_fortran, t1[1] / repeats)
@@ -49,7 +49,7 @@ for (i in N_list) {
   cat("Using QuadProgPP (C++-Eigen):\n")
   t2 <- system.time({
     for (j in 1:repeats) {
-      sol2 <- QP.Solve(D, -d0, Amat, -bvec)
+      sol2 <- quadprogpp::QP.Solve(D, -d0, Amat, -bvec)
     }
   })
   speed_cpp <- c(speed_cpp, t2[1] / repeats)

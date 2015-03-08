@@ -13,8 +13,8 @@ It wraps \emph{eiquadprog} c++ library with \link[RcppEigen]{RcppEigen} R packag
 \tabular{ll}{
 Package: \tab quadprogpp\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2015-02-23\cr
+Version: \tab 1.1\cr
+Date: \tab 2015-03-08\cr
 License: \tab GNU GPL v2.0 or later\cr
 }
 

@@ -1,4 +1,5 @@
 useDynLib(quadprogpp)
 importFrom(Rcpp, evalCpp)
 export(
-    "QP.Solve")
+    "QP.Solve",
+    "quadprog.solve.QP")
