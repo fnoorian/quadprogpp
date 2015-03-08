@@ -1,6 +1,6 @@
 Package: quadprogpp
 Type: Package
-Title: Quadratic Programming Solver in C++, using QuadProg++ and Eigen Templated Linear Algebra Libraries
+Title: Quick Quadratic Programming Solver in C++
 Version: 1.1-0
 Date: 2015-03-08
 Authors@R: c(person("Farzad", "Noorian", role = c("aut", "cre"), email = "farzad.noorian@sydney.edu.au"),

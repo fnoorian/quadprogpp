@@ -2,7 +2,7 @@
 \alias{quadprog.solve.QP}
 
 \title{
-  Quick Quadratic Programming using eiquadprog c++ library.
+ Quick Quadratic Programming Solver.
 }
 
 \description{
