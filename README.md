@@ -1,7 +1,7 @@
 quadprogpp: Fast Quadratic Programming for R
 ============================================
 This package provides a fast Quadratic Programming solver implementation in R.
-It wraps *eiquadprog* c++ library, an *Eigen* fork of *QuadProg++*, with *RcppEigen* R package.
+It wraps *eiquadprog* C++ library, an *Eigen* fork of *QuadProg++*, with *RcppEigen* R package.
 
 ## Installation
 The easiest way to install is to use *devtools* github installer.
