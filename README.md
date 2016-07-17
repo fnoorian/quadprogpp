@@ -36,7 +36,7 @@ A developmental repository is available on github:
 <https://github.com/fnoorian/quadprogpp>
 
 Feel free to contact the package maintainer if you need help on compiling for Windows:
-* Farzad Noorian <farzad.noorian@mail.com>
+* Farzad Noorian <farzad.noorian@gmail.com>
 
 ## License
 All files in this package are free software; you can redistribute them
