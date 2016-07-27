@@ -5,17 +5,20 @@ It wraps *eiquadprog* C++ library, an *Eigen* fork of *QuadProg++*, with *RcppEi
 
 ## Installation
 The easiest way to install is to use *devtools* github installer.
-If you don't have *devtools* package, install it first by using `install.packages("devtools")`.
-> library("devtools")
 
-> install_github("fnoorian/quadprogpp")
+```R
+if (!(require("devtools"))) install.packages("devtools")
+devtools::install_github("fnoorian/quadprogpp")
+```
 
 ## Speed-up 
 A speed-up of 3x to 5x compared to package *quadprog* (Fortran implementation) 
 was observed.
 
 See the benchmark in the package demos:
-> demo("benchmark", "quadprogpp")
+```R
+demo("benchmark", "quadprogpp")
+```
 
 ## Implementation Details
 *eiquadprog* is a modified version of *uQuadProg++* library, working with Eigen 
