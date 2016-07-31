@@ -15,7 +15,7 @@ On Windows, you may need [Rtools](https://cran.r-project.org/bin/windows/Rtools/
 to compile its C++ part.
 
 ## Speed-up 
-A speed-up of 3x to 5x compared to package *quadprog* (Fortran implementation) 
+A speed-up of 3x to 5x compared to package [quadprog](https://cran.r-project.org/package=quadprog) (a Fortran implementation) 
 was observed.
 
 See the benchmark in the package demos:
