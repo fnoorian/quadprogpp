@@ -11,6 +11,9 @@ if (!(require("devtools"))) install.packages("devtools")
 devtools::install_github("fnoorian/quadprogpp")
 ```
 
+On Windows, you may need [Rtools](https://cran.r-project.org/bin/windows/Rtools/)
+to compile its C++ part.
+
 ## Speed-up 
 A speed-up of 3x to 5x compared to package *quadprog* (Fortran implementation) 
 was observed.
@@ -19,6 +22,10 @@ See the benchmark in the package demos:
 ```R
 demo("benchmark", "quadprogpp")
 ```
+
+## Example
+
+See this [example](tests/test1.R).
 
 ## Implementation Details
 *eiquadprog* is a modified version of *uQuadProg++* library, working with Eigen 
