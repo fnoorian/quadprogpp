@@ -1,7 +1,7 @@
 quadprogpp: Fast Quadratic Programming for R
 ============================================
 This package provides a fast Quadratic Programming solver implementation in R.
-It wraps *eiquadprog* C++ library, an *Eigen* fork of *QuadProg++*, with *RcppEigen* R package.
+It wraps [*eiquadprog* C++ library](http://www.labri.fr/perso/guenneba/code/QuadProg/eiquadprog.hpp), an [*Eigen*](http://eigen.tuxfamily.org) fork of [*QuadProg++*](http://quadprog.sourceforge.net), with [*RcppEigen* R package](https://cran.r-project.org/package=RcppEigen).
 
 ## Installation
 The easiest way to install is to use *devtools* github installer.
@@ -40,13 +40,6 @@ Copyright (2008) Angelo Furfaro and (2006) Luca Di Gaspero.
 #### References: 
 D. Goldfarb, A. Idnani. A numerically stable dual method for solving
 strictly convex quadratic programs. Mathematical Programming 27 (1983) pp. 1-33.
-
-## Development and Contact Information
-A developmental repository is available on github:
-<https://github.com/fnoorian/quadprogpp>
-
-Feel free to contact the package maintainer if you need help on compiling for Windows:
-* Farzad Noorian <farzad.noorian@gmail.com>
 
 ## License
 All files in this package are free software; you can redistribute them
