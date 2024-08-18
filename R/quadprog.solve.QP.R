@@ -21,9 +21,9 @@ quadprog.solve.QP <- function(Dmat, dvec, Amat, bvec, meq=0, factorized=FALSE) {
   # extract equalities and inequalities
   if (meq > 0) {
     eq_ind = 1:meq
-    CE = Amat[, eq_ind]
+    CE = Amat[, eq_ind, drop = FALSE]
     ce0 = bvec[eq_ind]
-    CI = Amat[, -eq_ind]
+    CI = Amat[, -eq_ind, drop = FALSE]
     ci0 = bvec[-eq_ind]
   } else {
     CE = matrix(0, n, 0)
